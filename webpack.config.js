@@ -16,7 +16,7 @@ if (Encore.isProduction()) {
         // .setPublicPath('/no')
         .setPublicPath('https://symfony-cloudflare.pages.dev')
         // only needed for CDN's or subdirectory deploy
-        .setManifestKeyPrefix('build/')
+        .setManifestKeyPrefix('build-i-dont-know/')
         // uncomment to get integrity="..." attributes on your script & link tags
         // requires WebpackEncoreBundle 1.4 or higher
         // .enableIntegrityHashes(true, ['sha256', 'sha384', 'sha512'])
